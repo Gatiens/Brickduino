@@ -1,5 +1,5 @@
-#include <UTFT.h>                          //Graphics library
-#include <URTouch.h>                       //Touch Screen library
+t#include <UTFT.h>                          //Graphics library
+#include <URTouch.h>                        //Touch Screen library
 
 //------------------------------------------------------------
 //==== Creating Objects
@@ -775,7 +775,7 @@ void drawHighlightFrame(int x1, int y1, int x2, int y2) {
 void drawLevelSelect() {
   //---- Title
   myGLCD.setColor(255, 255, 255);
-  myGLCD.setFont(BigFont); // Sets font to big
+  myGLCD.setFont(BigFont);                 //Sets font to big
   myGLCD.print("Level Select", CENTER, 5);
   myGLCD.drawLine(0, 22, 319, 22);
 
