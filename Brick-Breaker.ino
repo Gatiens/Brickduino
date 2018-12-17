@@ -503,7 +503,7 @@ void resetBlocks() {
 //------------------------------------------------------------
 boolean playMenu() {
   int x, y;
-  drawMenu();                               //draws the menu
+  drawMenu();                               //Draws the menu
 
   //---- If statement for Touch Screen Data collection
   if (myTouch.dataAvailable()) {
@@ -752,7 +752,7 @@ void drawMenu() {
   myGLCD.drawRoundRect (35, 190, 285, 230);
   myGLCD.print("Back to Game", CENTER, 202);
 
-  myGLCD.setBackColor(0, 0, 0); //sets background color back to black
+  myGLCD.setBackColor(0, 0, 0); //Sets background color back to black
 }
 
 //------------------------------------------------------------
@@ -780,12 +780,12 @@ void drawLevelSelect() {
   myGLCD.drawLine(0, 22, 319, 22);
 
   //---- Button 1
-  myGLCD.setColor(56, 132, 252);           // Sets green color
-  myGLCD.fillRoundRect (35, 40, 285, 80);  // Draws filled rounded rectangle
-  myGLCD.setColor(255, 255, 255);          // Sets color to white
-  myGLCD.drawRoundRect (35, 40, 285, 80);  // Draws rounded rectangle without a fill, so the overall appearance of the button looks like it has a frame
-  myGLCD.setBackColor(56, 132, 252);       // Sets the background color of the area where the text will be printed to green, same as the button
-  myGLCD.print("Level 1", CENTER, 52);     // Prints the string
+  myGLCD.setColor(56, 132, 252);           //Sets green color
+  myGLCD.fillRoundRect (35, 40, 285, 80);  //Draws filled rounded rectangle
+  myGLCD.setColor(255, 255, 255);          //Sets color to white
+  myGLCD.drawRoundRect (35, 40, 285, 80);  //Draws rounded rectangle without a fill, so the overall appearance of the button looks like it has a frame
+  myGLCD.setBackColor(56, 132, 252);       //Sets the background color of the area where the text will be printed to green, same as the button
+  myGLCD.print("Level 1", CENTER, 52);     //Prints the string
 
   //---- Button 2 ---- See Button 1 for comments
   myGLCD.setColor(56, 132, 252);
@@ -808,9 +808,6 @@ void drawLevelSelect() {
   myGLCD.drawRoundRect (35, 190, 285, 230);
   myGLCD.print("Level 4", CENTER, 202);
 
-  myGLCD.setBackColor(0, 0, 0);            //sets background color back to black
+  myGLCD.setBackColor(0, 0, 0);            //Sets background color back to black
 }
-
-
-
 
