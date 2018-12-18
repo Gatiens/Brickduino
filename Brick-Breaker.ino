@@ -1,4 +1,4 @@
-t#include <UTFT.h>                          //Graphics library
+#include <UTFT.h>                          //Graphics library
 #include <URTouch.h>                        //Touch Screen library
 
 //------------------------------------------------------------
